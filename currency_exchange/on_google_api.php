@@ -21,4 +21,5 @@ function get_currency($from_Currency, $to_Currency, $amount) {
 
     return round($data[0], 2);
 }
+/*From : https://3v4l.org/cEdmX/refs */
 ?>
