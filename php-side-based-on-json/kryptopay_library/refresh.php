@@ -13,10 +13,10 @@ echo '<p><a href='.$url.'><font color="green"><b>Transaction accepted</b></font>
 }
 else
 {
-$time_end=(time()-480);
+$time_end=(time()-600);
 if($start_time>$time_end)
 {
-$procent=((($start_time-$time_end)/480)*100);
+$procent=((($start_time-$time_end)/600)*100);
 $procent=(round($procent,1));
 echo 'Waiting for transactions ...';
 echo '</br><progress style="background-color: #003153;border: 0;height: 9px;border-radius: 9px;width: 250px;margin-top: 4px;" value='.$procent.' max="100" align="left"></progress>';
