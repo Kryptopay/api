@@ -67,6 +67,12 @@ address string(only a-z A-Z 1-9 and ',')
 
 url 
 
+url_fail
+
+currency (PLN,EUR,GBP,USD,JPY)
+
+currency_declared (PLN,EUR,GBP,USD,JPY)
+
 
 ===
 ##Errors list:
